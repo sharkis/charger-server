@@ -6,7 +6,7 @@ const port = 3000;
 app.get('/', (req,res)=>{
 	res.send("Hello world!");
 });
-app.listen(port,()=>{
+app.listen(port,'0.0.0.0',()=>{
 	console.log(`example app listening on port ${port}`);
 });
 
